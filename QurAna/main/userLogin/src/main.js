@@ -24,7 +24,7 @@ formLogin.addEventListener("submit", function (e) {
     warn.style.color = "green";
     warn.innerText = "Berhasil";
     setTimeout(() => {
-      window.location.href = "/QurAna/main/index.html";
+      window.location.href = "./main/index.html";
     }, 3000);
   }
 });
